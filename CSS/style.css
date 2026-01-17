@@ -1,0 +1,56 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;   
+
+}
+
+h1,
+h2 {
+    text-align: center;
+
+}
+
+form {
+    height: 450px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    margin: 30px;
+    border: 3px solid black;
+    border-radius: 5px;
+    background-color: rgb(251, 228, 201);
+    box-shadow: 2px 2px 4px;
+
+
+}
+
+input,
+button {
+    padding: 15px;
+}
+
+button {
+    color: white;
+    background-color: black;
+    font-weight: bold;
+    border-radius: 5px;
+
+
+}
+
+#contactlist {
+    margin: 50px;
+}
+
+.gallery {
+    padding: 20px;
+    border-bottom: 1px solid black;
+
+}
